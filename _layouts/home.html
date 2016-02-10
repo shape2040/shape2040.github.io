@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="page-content">
+      <div class="section no-pad-bot home-bg" id="index-banner">
+        <div class="container">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+    {% include footer.html %}
+  </body>
+  {% if page.title %}
+    {% include post-scripts.html %}
+  {% else %}
+    {% include scripts.html %}
+  {% endif %}
+
+
+</html>

@@ -14,7 +14,7 @@ maps:
     map-url: map-thing.png
   - title: Map, wowzers!
     image-url: map-thing.png
-    map-url: map-thing.png
+    map-url: https://www.openstreetmap.org
   - title: Map hey there you go
     image-url: map-thing.png
     map-url: http://www.fark.com/

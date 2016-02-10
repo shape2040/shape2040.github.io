@@ -1,9 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab);
+
+html {
+  font-family: "Roboto Slab", sans-serif;
+  color: rgba(0,0,0,1);
+}
+h1,h2,h3,h4,h5,h6,
+.nav-wrapper,
+.card-action {
+  font-family: "Roboto", sans-serif;
+}
+.home-bg {
+  background-image: url("../bg-temp.jpg");
+  background-position: 1% 50%;
+  min-height: 800px;
+}
+.page-content {
+  padding: 0 0;
+}
+// .section {
+//   padding-top: 0;
+// }
+#index-banner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .card.small {
   height: 213px;
 }
 
 .card-title {
-  text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 10px #000, 0px 0px 20px #000, 0px 0px 30px #000, 0px 0px 40px #000, 0px 0px 50px #000;
+  text-shadow: 0px 0px 2px #000, 
+  0px 0px 5px #000,
+  0px 0px 10px #000,
+  0px 0px 20px #000,
+  0px 0px 30px #000, 
+  0px 0px 40px #000, 
+  0px 0px 50px #000;
+}
+
+.card, .card .sub-card-content {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.sub-page-title {
+  font-size: 5rem;
+}
+
+.sub-page-title, .resource-section-header, .post-title {
+  font-weight: 700;
+}
+.sub-document-list {
+  font-size: 1.4rem;
+}
+footer.page-footer {
+  margin-top: 0;
 }
 
 @media screen {
@@ -16,3 +67,4 @@
     line-height: 1px;
   }
 }
+
