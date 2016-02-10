@@ -1,0 +1,26 @@
+<h1>{{ page.title }}</h1>
+<div class="row">
+  <div class="col s12 m4 l4">
+    <p>{{ page.description }}</p>
+  </div>
+  <div class="col s12 m4 l4">
+    <h5>Monthly Meeting:</h5>
+    {{page.meeting}} | 5:00 - 7:00pm
+    <h5>Location</h5>
+    {{ page.building }}<br>
+    {{ page.address }}, Georgetown, KY
+  </div>
+  <div class="col s12 m4 l4">
+    <h5>Chair:</h5>
+    {{page.chair}}
+    <h5>Staff Lead:</h5>
+    {{page.lead}}
+    <h5>Additional Staff:</h5>
+    <ul>
+    {% for staff in page.additional-staff %}
+      <li>{{staff.member}}</li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+<h2>Meeting Resources</h2>

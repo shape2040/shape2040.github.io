@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Heritage &amp; Urban Form"
+weight: 3
+description: Pitchfork flannel schlitz tattooed, austin master cleanse chambray tilde listicle 90's literally. Hammock viral cred, normcore jean shorts intelligentsia bushwick asymmetrical tumblr slow-carb direct trade next level raw denim meditation quinoa. Austin etsy tofu fingerstache selfies kale chips. Occupy shabby chic godard, tofu narwhal post-ironic leggings tilde jean shorts beard austin meditation food truck shoreditch. Hashtag street art thundercats hoodie freegan, pinterest twee tilde flannel before they sold out. Tilde small batch etsy, synth helvetica squid shabby chic. Meggings offal pinterest, authentic man bun beard street art heirloom swag lomo.
+meeting: Third Thursday
+building: Development Services
+address: 230 E Main St
+chair: Polly Singer Eardley
+lead: Megan Chan
+additional-staff:
+  - member: Joe Kane
+  - member: Ryan Cooper
+---
+<div class="home">
+  {% include sub-info.html %}
+  {% for post in site.posts %}
+  {% if post.categories contains 'heritage' %}
+  {% include meeting.html %}
+  {% endif %}
+  {% endfor %}
+</div>

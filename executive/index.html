@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Executive Steering Committee"
+weight: 2
+description: Raw denim migas intelligentsia direct trade bushwick normcore wolf. Asymmetrical irony listicle typewriter, lumbersexual portland yuccie knausgaard keytar forage trust fund scenester cliche franzen hoodie. Sartorial letterpress small batch kale chips cray wayfarers. Chambray XOXO shoreditch everyday carry, narwhal 90's yr raw denim celiac green juice four loko. Pop-up gluten-free umami, chicharrones +1 letterpress marfa everyday carry freegan franzen XOXO organic trust fund. Chartreuse art party shoreditch intelligentsia, readymade retro banjo 3 wolf moon ethical sartorial cliche. Asymmetrical gentrify disrupt celiac salvia.
+meeting: Third Tuesday
+building: Fire Station #3
+address: 101 Airport Rd
+chair: Rob Jones
+lead: Joe Kane
+additional-staff:
+  - member: Megan Chan
+  - member: Matt Summers
+---
+<div class="home">
+  {% include sub-info.html %}
+  {% for post in site.posts %}
+  {% if post.categories contains 'executive' %}
+  {% include meeting.html %}
+  {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,11 @@
+# Site settings
+title: Shape2040
+description: "Banh mi VHS raw denim yr quinoa, authentic wayfarers ramps heirloom crucifix +1 biodiesel. Disrupt pitchfork swag blog. Fanny pack pinterest stumptown chia, iPhone squid tote bag cliche waistcoat brooklyn pickled everyday carry."
+baseurl: ""
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+host: 0.0.0.0
+port: 4000

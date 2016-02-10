@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Agriculture &amp; Environment"
+weight: 1
+description: Tousled asymmetrical seitan tumblr, cardigan helvetica paleo. VHS cliche hella butcher. Food truck pug bushwick taxidermy, skateboard asymmetrical tumblr schlitz gluten-free sartorial fanny pack banjo tattooed. Polaroid chartreuse bespoke freegan. Fanny pack typewriter trust fund fap, mustache viral normcore. Tattooed biodiesel poutine fanny pack. Portland readymade photo booth, knausgaard scenester next level jean shorts artisan neutra health goth post-ironic vice.
+meeting: Third Wednesday
+building: Development Services
+address: 230 E Main St
+chair: Claude Christensen
+lead: Matt Summers
+additional-staff:
+  - member: Joe Kane
+  - member: Whitley Wolfe
+---
+<div class="home">
+  {% include sub-info.html %}
+  {% for post in site.posts %}
+  {% if post.categories contains 'ag-environment' %}
+  {% include meeting.html %}
+  {% endif %}
+  {% endfor %}
+</div>

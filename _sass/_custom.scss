@@ -1,0 +1,18 @@
+.card.small {
+  height: 213px;
+}
+
+.card-title {
+  text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 10px #000, 0px 0px 20px #000, 0px 0px 30px #000, 0px 0px 40px #000, 0px 0px 50px #000;
+}
+
+@media screen {
+  .side-nav a {
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px
+  }
+  .dropdown-arrow-mobile {
+    line-height: 1px;
+  }
+}

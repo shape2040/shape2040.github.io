@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Human Services &amp; Community Building"
+weight: 4
+description: Intelligentsia wayfarers etsy, narwhal forage pinterest next level portland letterpress humblebrag. 90's umami DIY flannel, brooklyn pug poutine craft beer cardigan. Ramps blue bottle vegan, shabby chic celiac squid franzen PBR&B poutine chia. Hella banjo deep v kombucha chia. Forage dreamcatcher poutine cardigan XOXO. Pickled before they sold out sartorial salvia mumblecore. Selvage whatever pitchfork, chia bespoke sustainable kickstarter gluten-free twee.
+meeting: Fourth Thursday
+building: Development Services
+address: 230 E Main St
+chair: Kandice Whitehouse
+lead: Megan Chan
+additional-staff:
+  - member: Matt Summers
+---
+<div class="home">
+  {% include sub-info.html %}
+  {% for post in site.posts %}
+  {% if post.categories contains 'human' %}
+  {% include meeting.html %}
+  {% endif %}
+  {% endfor %}
+</div>

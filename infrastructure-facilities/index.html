@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Infrastructure &amp; Facilities"
+weight: 5
+description: Mustache cardigan ennui waistcoat etsy, marfa helvetica. Crucifix cliche semiotics heirloom, asymmetrical viral yr lomo shabby chic retro. Sustainable authentic chartreuse neutra. Jean shorts pug sriracha, helvetica cold-pressed keffiyeh fap. Knausgaard pork belly 3 wolf moon before they sold out cray ramps, paleo mumblecore echo park messenger bag roof party fap everyday carry shoreditch man braid. Austin celiac cardigan, VHS narwhal bitters bicycle rights shoreditch twee williamsburg heirloom humblebrag artisan meh helvetica. Semiotics you probably haven't heard of them paleo farm-to-table forage VHS, selfies celiac knausgaard umami lomo shoreditch.
+meeting: Fourth Tuesday
+building: Development Services
+address: 230 E Main St
+chair: Steve Smith
+lead: Joe Kane
+additional-staff:
+  - member: Matt Summers
+  - member: Ryan Cooper
+---
+<div class="home">
+  {% include sub-info.html %}
+  {% for post in site.posts %}
+  {% if post.categories contains 'infrastructure' %}
+  {% include meeting.html %}
+  {% endif %}
+  {% endfor %}
+</div>

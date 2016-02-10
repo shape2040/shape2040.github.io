@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Land Use"
+weight: 6
+description: Selfies art party bespoke actually farm-to-table, kickstarter intelligentsia pug. Fanny pack ethical salvia, wayfarers semiotics butcher williamsburg yuccie. Raw denim microdosing kitsch, wolf paleo tilde whatever single-origin coffee ugh. Helvetica scenester photo booth, man braid fap tacos tote bag. Yr paleo kogi, celiac next level food truck artisan four dollar toast. Mlkshk tote bag post-ironic, humblebrag selfies offal raw denim leggings. Waistcoat bitters trust fund, kale chips blog roof party fixie hashtag.
+meeting: Third Monday
+building: Development Services
+address: 230 E Main St
+chair: David Lusby
+lead: Joe Kane
+additional-staff:
+  - member: Megan Chan
+  - member: Matt Summers
+  - member: Ryan Cooper
+---
+<div class="home">
+  {% include sub-info.html %}
+  {% for post in site.posts %}
+  {% if post.categories contains 'landuse' %}
+  {% include meeting.html %}
+  {% endif %}
+  {% endfor %}
+</div>

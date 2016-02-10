@@ -1,0 +1,70 @@
+<div class="row">
+  <div class="col s12 m12 l12">
+    <div class="card blue-grey lighten-5">
+      <div class="card-content black-text">
+        <header class="post-header">
+          <h1 class="post-title">{{ post.title }}</h1>
+          <hr>
+        </header>
+        <article class="post-content">
+            {% if post.date %}
+            <h3>Date: {{ post.date | date: "%b %-d, %Y" }}</h3>
+            {% endif %}
+
+            {% if post.background %}
+            <h3>Background: </h3>
+            <div class="row">
+              <div class="col s10 offset-s1">
+              <p>{{ post.background }}</p>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if post.agenda %}
+            <h3><a href="documents/{{post.agenda}}">Agenda</a></h3>
+            {% endif %}
+
+            {% if post.maps %}
+            <h3>Maps:</h3>
+              <div class="row">
+                  <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
+                    {% for map in post.maps %}
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="images/{{map.image-url}}">
+                        <span class="card-title">{{map.title}}</span>
+                      </div>
+                      <div class="card-action">
+                        {% if map.image-url[0:4] == "http" %}
+                        <a href="images/{{map.map-url}}">View</a>
+                        {% else %}
+                        <a href="images/{{map.map-url}}">Download</a>
+                        {% endif %}
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+
+            {% if post.documents %}
+            <h3>Documents: </h3>
+            <div class="row">
+              <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
+                <ul>
+                  {% for doc in post.documents %}
+                  <li><a href="documents/{{doc.doc-url}}">{{doc.title}}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if post.minutes %}
+            <h3><a href="documents/{{post.minutes}}">Minutes</a></h3>
+            {% endif %}
+          </article>
+      </div>
+    </div>
+  </div>
+</div>
