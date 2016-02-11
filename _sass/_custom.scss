@@ -9,6 +9,14 @@ h1,h2,h3,h4,h5,h6,
 .card-action {
   font-family: "Roboto", sans-serif;
 }
+
+.bullet-list {
+  margin-left: 40px;
+}
+.bullet-list li {
+  list-style-type: disc;
+}
+
 .home-bg {
   background-image: url("../bg-temp.jpg");
   background-position: 1% 50%;

@@ -5,16 +5,11 @@
       <div class="card-content sub-card-content black-text">
         <div class="row">
           <div class="col s12 m12 l4">
-            <p>{{ page.description }}</p>
-          </div>
-          <div class="col s12 m6 l4">
             <h5>Monthly Meeting:</h5>
             {{page.meeting}} | 5:00 - 7:00pm
             <h5>Location</h5>
             {{ page.building }}<br>
             {{ page.address }}, Georgetown, KY
-          </div>
-          <div class="col s12 m6 l4">
             <h5>Chair:</h5>
             {{page.chair}}
             <h5>Staff Lead:</h5>
@@ -24,6 +19,22 @@
             {% for staff in page.additional-staff %}
               <li>{{staff.member}}</li>
             {% endfor %}
+            </ul>
+          </div>
+          <div class="col s12 m12 l8">
+            <h5>Vision Statement:</h5>
+            <p>{{ page.description }}</p>
+            <h5>Fundamental Principles:</h5>
+            <ul class="bullet-list">
+              {% for principle in page.principles %}
+              <li>{{ principle.p }}</li>
+              {% endfor %}
+            </ul>
+            <h5>Goals &amp; Objectives:</h5>
+            <ul class="bullet-list">
+              {% for goal in page.goals %}
+              <li>{{ goal.g }}</li>
+              {% endfor %}
             </ul>
           </div>
         </div>
