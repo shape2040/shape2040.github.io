@@ -1,13 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab);
 
 html {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Roboto Slab", serif;
   color: rgba(0,0,0,1);
 }
 h1,h2,h3,h4,h5,h6,
 .nav-wrapper,
 .card-action {
   font-family: "Roboto", sans-serif;
+}
+
+.home-title {
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+.dropdown-content li>a {
+  color: #4CAF50;
+}
+.dropdown-content li>a:hover {
+  color: white;
+  background-color: #4CAF50;
 }
 
 .bullet-list {
@@ -18,16 +31,14 @@ h1,h2,h3,h4,h5,h6,
 }
 
 .home-bg {
-  background-image: url("../bg-temp.jpg");
+  background-image: url("/images/bg-temp.jpg");
   background-position: 1% 50%;
   min-height: 800px;
 }
 .page-content {
   padding: 0 0;
 }
-// .section {
-//   padding-top: 0;
-// }
+
 #index-banner {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -64,6 +75,7 @@ h1,h2,h3,h4,h5,h6,
 footer.page-footer {
   margin-top: 0;
 }
+
 
 @media screen {
   .side-nav a {

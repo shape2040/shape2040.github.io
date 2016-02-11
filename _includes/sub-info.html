@@ -24,23 +24,25 @@
           <div class="col s12 m12 l8">
             <h5>Vision Statement:</h5>
             <p>{{ page.description }}</p>
+            {% if page.principles %}
             <h5>Fundamental Principles:</h5>
             <ul class="bullet-list">
               {% for principle in page.principles %}
               <li>{{ principle.p }}</li>
               {% endfor %}
             </ul>
+            {% endif %}
+            {% if page.goals %}
             <h5>Goals &amp; Objectives:</h5>
             <ul class="bullet-list">
               {% for goal in page.goals %}
               <li>{{ goal.g }}</li>
               {% endfor %}
             </ul>
+            {% endif %}
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<h2 class="resource-section-header">Meeting Resources</h2>

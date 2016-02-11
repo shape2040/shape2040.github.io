@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Public Meetings"
+page-category: public-meetings
+description: Scott County and its urban and rural areas provide diversity of uses which allows interaction and connectivity between land uses and transportation types; Distinct neighborhoods which have strong character and equitable access; Dedicated focus to our downtowns which provide the backbone of each of our three cities; Land for economic centers where industrial and commercial activity are able to thrive and produce for the county and region; A supportive environment for institutions (schools, etc.) which allows integration and collaboration throughout the community, and Environmental protection, our natural and open spaces are identified and protected through acquisition, stewardship, and through site planning and incorporated as vital components of our infrastructure and economy.
+principles:
+---
+<div class="home">
+  <h1 class="sub-page-title">{{ page.title }}</h1>
+  {% for post in site.posts %}
+  {% if post.categories contains 'public-meeting' %}
+  {% include public-meeting.html %}
+  {% endif %}
+  {% endfor %}
+</div>
