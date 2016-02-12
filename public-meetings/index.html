@@ -1,13 +1,14 @@
 ---
 layout: default
 title: "Public Meetings"
-description: Agriculture and environmental protection provide Scott County with a sustainable and vibrant future. Prime farmland and environmentally sensitive areas are protected and preserved from sprawl and development.  Scott County agricultural areas provide access to locally grown and produced goods. Recycling, re-use, and composting reduce waste and demand on natural resources.
+description: Throughout the comprehensive planning process there will be public meetings where the community will have an opportunity to learn about and contribute. If you're unable to make one of our public meetings, you'll be able to find various resources from the meeting below.
 ---
 <div class="home">
-  <h2>{{ page.title }}</h2>
+  <h1 class="sub-page-title">{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
   {% for post in site.posts %}
   {% if post.categories contains 'public-meetings' %}
-  {% include meeting.html %}
+  {% include public-meeting.html %}
   {% endif %}
   {% endfor %}
 </div>
