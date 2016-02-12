@@ -13,7 +13,7 @@
 <ul id="dropdown2" class="dropdown-content green-text">
   {% for page in pages %}
       {% if page.page-category %}
-      {% if page.page-category == subcommittee %}
+      {% if page.category == subcommittee %}
       <li><a class="page-link" href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a></li>
       {% endif %}
       {% endif %}

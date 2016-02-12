@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "January Public Meeting"
-date:   2016-01-26 12:00:00
+title: "January Public Meeting"
+date: 2016-01-26 12:00:00
 category: public-meeting
 background: Our first public meeting where we got input from the public
 slideshare:
