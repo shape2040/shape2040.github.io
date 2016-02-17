@@ -2,7 +2,7 @@
 title: Great Scott!
 description: "Great Scott! The 2016 Comprehensive Plan for Scott County, Kentucky"
 baseurl: ""
-url: "http://Shape2040.github.io/" # the base hostname & protocol for your site
+url: "http://greatscottplan.com/" # the base hostname & protocol for your site
 future: true
 # Build settings
 markdown: kramdown
