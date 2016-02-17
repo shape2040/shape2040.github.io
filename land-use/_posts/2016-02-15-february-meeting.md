@@ -22,5 +22,4 @@ maps:
   - title: Future Land Use - Georgetown
     image-url: FutureLandUse24x36.jpg
     map-url: FutureLandUse24x36.pdf
-
 ---
