@@ -22,8 +22,10 @@
             </ul>
           </div>
           <div class="col s12 m12 l8">
+            {% if page.description %}
             <h5>Vision Statement:</h5>
             <p>{{ page.description }}</p>
+            {% endif %}
             {% if page.principles %}
             <h5>Fundamental Principles:</h5>
             <ul class="bullet-list">

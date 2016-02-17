@@ -88,3 +88,33 @@ footer.page-footer {
   }
 }
 
+.ribbon {
+  overflow: hidden;
+  white-space: nowrap;
+  /* fixed to bottom-right corner */
+  position: fixed;
+  bottom: 30px;
+  right: -60px;
+  /* 45 deg ccw rotation */
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  /* shadow */
+  -webkit-box-shadow: 0 0 10px #888;
+     -moz-box-shadow: 0 0 10px #888;
+          box-shadow: 0 0 10px #888;
+}
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font: bold 100% 'Roboto Slab', serif;
+  margin: 1px 0;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  text-shadow: 0 0 5px #444;
+}
