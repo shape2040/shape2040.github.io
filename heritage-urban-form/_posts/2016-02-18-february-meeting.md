@@ -9,6 +9,9 @@ documents:
   - title: Meeting Packet
     doc-url: heritage-and-urban-form-packet-2016-02-18.pdf
     doc-type: PDF
+  - title: Meeting Slides
+    doc-url: heritage-and-urban-form-presentation-2016-02-18.pdf
+    doc-type: PDF
   - title: Goals &amp; Objectives Matrix
     doc-url: goals-and-objectives-matrix-new-heritage-and-urban-form.pdf
     doc-type: PDF

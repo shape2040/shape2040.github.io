@@ -14,7 +14,10 @@ a:hover {
   text-decoration: underline; 
 }
 
-a.page-link:hover, a.dropdown-button:hover {
+a.page-link:hover,
+a.dropdown-button:hover,
+a.button-collapse:hover,
+a.brand-logo:hover {
   text-decoration: none;
 }
 
@@ -43,6 +46,14 @@ a.page-link:hover, a.dropdown-button:hover {
   background-position: 1% 50%;
   min-height: 800px;
 }
+
+.comm-members {
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+}
+
+
 .page-content {
   padding: 0 0;
 }

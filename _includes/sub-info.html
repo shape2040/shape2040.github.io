@@ -42,6 +42,16 @@
               {% endfor %}
             </ul>
             {% endif %}
+            {% if page.comm-members %}
+              <h5>Committee Members</h5>
+              <div class="comm-members">
+                <ul class="bullet-list">
+                  {% for m in page.comm-members %}
+                  <li>{{m.member}}</li>
+                  {% endfor %} 
+                </ul>
+              </div>
+            {% endif %}
           </div>
         </div>
       </div>

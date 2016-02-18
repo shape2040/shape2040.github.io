@@ -7,7 +7,7 @@ background: In this meeting the executive steering recapped the January public m
 agenda: steering-committee-meeting-agenda-2016-02-16.pdf
 documents:
   - title: Meeting Packet
-    doc-url: steering-committee-meeting-agenda-2016-02-16.pdf
+    doc-url: steering-committee-meeting-agenda-2016-02-16-PACKET.pdf
     doc-type: PDF
 minutes: minutes-from-2-16-16-meeting.pdf
 ---
