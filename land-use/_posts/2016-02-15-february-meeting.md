@@ -12,6 +12,9 @@ documents:
   - title: Meeting Slides
     doc-url: land-use-1st-meetings-feb-2016.pdf
     doc-type: PDF
+  - title: Goals &amp; Objectives Matrix
+    doc-url: goals-and-objectives-matrix-new-land-use.pdf
+    doc-type: PDF
   - title: Vision 2020 - Growth &amp; Land Use
     doc-url: Vision_2020_Master_(strategic)_Plan_Growth and Land Use.pdf
     doc-type: PDF

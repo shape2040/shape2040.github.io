@@ -10,6 +10,14 @@ h1,h2,h3,h4,h5,h6,
   font-family: "Roboto", sans-serif;
 }
 
+a:hover {
+  text-decoration: underline; 
+}
+
+a.page-link:hover, a.dropdown-button:hover {
+  text-decoration: none;
+}
+
 .home-title {
   font-weight: bold;
   font-family: "Roboto Slab", serif;
@@ -71,6 +79,9 @@ h1,h2,h3,h4,h5,h6,
 }
 .sub-document-list {
   font-size: 1.4rem;
+}
+.sub-document-list>ul {
+  margin: 0;
 }
 footer.page-footer {
   margin-top: 0;

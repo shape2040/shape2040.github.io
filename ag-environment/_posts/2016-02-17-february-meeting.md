@@ -11,6 +11,9 @@ documents:
   - title: Meeting Slides
     doc-url: ag-env-1st-meetings-feb-2016.pdf
     doc-type: PDF
+  - title: Goals &amp; Objectives Matrix
+    doc-url: goals-and-objectives-matrix-new-ag-environment.pdf
+    doc-type: PDF
   - title: Vision 2020 - Agriculture
     doc-url: Vision_2020_Master_(strategic)_Plan_Agriculture.pdf
     doc-type: PDF
