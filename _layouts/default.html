@@ -19,6 +19,7 @@
   {% else %}
     {% include scripts.html %}
   {% endif %}
-
-
+  {% if page.page-category == "survey-results" %}
+    {% include highcharts.html %}
+  {% endif %}
 </html>
