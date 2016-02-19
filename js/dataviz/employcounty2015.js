@@ -2,7 +2,7 @@ $(function () {
 
     $(document).ready(function () {
         // Build the chart
-        $('#growth1991').highcharts({
+        $('#employcounty2015').highcharts({
             chart: {
                 plotBackgroundColor: null,
                 plotBorderWidth: null,
@@ -10,7 +10,7 @@ $(function () {
                 type: 'pie'
             },
             title: {
-                text: '1991'
+                text: '2015'
             },
             tooltip: {
                 pointFormat: '<b>{point.percentage:.1f}%</b>'
@@ -29,17 +29,23 @@ $(function () {
             series: [{
                 colorByPoint: true,
                 data: [{
-                    name: 'Rapid Rate',
-                    y: 8.6
+                    name: 'Scott',
+                    y: 60
                 }, {
-                    name: 'Moderate Rate',
-                    y: 61.0
+                    name: 'Fayette',
+                    y: 20
                 }, {
-                    name: 'Slow Rate',
-                    y: 23.5
+                    name: 'Franklin',
+                    y: 6
                 }, {
-                    name: 'Should discourage growth altogether',
-                    y: 7.0
+                    name: 'Harrison',
+                    y: 1
+                }, {
+                    name: 'Bourbon',
+                    y: 1
+                }, {
+                    name: 'Other',
+                    y: 5.8
                 }]
             }]
         });

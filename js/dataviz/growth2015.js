@@ -13,10 +13,11 @@ $(function () {
                 text: '2015'
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '<b>{point.percentage:.1f}%</b>'
             },
             plotOptions: {
                 pie: {
+                    animation: false,
                     allowPointSelect: true,
                     cursor: 'pointer',
                     dataLabels: {
@@ -26,7 +27,6 @@ $(function () {
                 }
             },
             series: [{
-                name: 'Brands',
                 colorByPoint: true,
                 data: [{
                     name: 'Rapid Rate',
@@ -38,7 +38,7 @@ $(function () {
                     name: 'Slow Rate',
                     y: 31.6
                 }, {
-                    name: 'Or should they discourage growth in Scott County altogether?',
+                    name: 'Should discourage growth altogether',
                     y: 5.8
                 }]
             }]

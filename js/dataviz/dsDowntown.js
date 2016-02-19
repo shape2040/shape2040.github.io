@@ -2,7 +2,7 @@ $(function () {
 
     $(document).ready(function () {
         // Build the chart
-        $('#growth1991').highcharts({
+        $('#ds-downtown').highcharts({
             chart: {
                 plotBackgroundColor: null,
                 plotBorderWidth: null,
@@ -10,7 +10,7 @@ $(function () {
                 type: 'pie'
             },
             title: {
-                text: '1991'
+                text: '...the downtown?'
             },
             tooltip: {
                 pointFormat: '<b>{point.percentage:.1f}%</b>'
@@ -29,17 +29,14 @@ $(function () {
             series: [{
                 colorByPoint: true,
                 data: [{
-                    name: 'Rapid Rate',
-                    y: 8.6
+                    name: 'Favor',
+                    y: 79
                 }, {
-                    name: 'Moderate Rate',
-                    y: 61.0
+                    name: 'Oppose',
+                    y: 8
                 }, {
-                    name: 'Slow Rate',
-                    y: 23.5
-                }, {
-                    name: 'Should discourage growth altogether',
-                    y: 7.0
+                    name: 'Undecided',
+                    y: 13
                 }]
             }]
         });

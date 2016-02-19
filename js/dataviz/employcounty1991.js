@@ -2,7 +2,7 @@ $(function () {
 
     $(document).ready(function () {
         // Build the chart
-        $('#growth1991').highcharts({
+        $('#employcounty1991').highcharts({
             chart: {
                 plotBackgroundColor: null,
                 plotBorderWidth: null,
@@ -29,17 +29,25 @@ $(function () {
             series: [{
                 colorByPoint: true,
                 data: [{
-                    name: 'Rapid Rate',
-                    y: 8.6
+                    name: 'Scott',
+                    y: 54.5
                 }, {
-                    name: 'Moderate Rate',
-                    y: 61.0
+                    name: 'Fayette',
+                    y: 36.0
                 }, {
-                    name: 'Slow Rate',
-                    y: 23.5
+                    name: 'Franklin',
+                    y: 4.7
                 }, {
-                    name: 'Should discourage growth altogether',
-                    y: 7.0
+                    name: 'Harrison',
+                    y: 0.5
+                }, {
+                    name: 'Misc.',
+                    y: 3.8,
+                    color: '#44BEA9'
+                }, {
+                    name: 'Refused',
+                    y: 0.9,
+                    color: '#2c3e50'
                 }]
             }]
         });

@@ -13,10 +13,11 @@ $(function () {
                 text: '2015'
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '<b>{point.percentage:.1f}%</b>'
             },
             plotOptions: {
                 pie: {
+                    animation: false,
                     allowPointSelect: true,
                     cursor: 'pointer',
                     dataLabels: {
@@ -26,7 +27,6 @@ $(function () {
                 }
             },
             series: [{
-                name: 'Brands',
                 colorByPoint: true,
                 data: [{
                     name: 'Rapid Rate',
