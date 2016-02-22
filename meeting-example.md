@@ -2,7 +2,7 @@
 layout: post
 title:  "February Meeting"
 date:   2016-02-17 12:00:00
-category: ag-environment
+category:
 background: Hammock meditation yr waistcoat wolf paleo. Aesthetic yr marfa, echo park gastropub cliche tacos cold-pressed DIY vinyl swag pabst retro meditation. Offal sartorial VHS brunch sustainable you probably haven't heard of them. Vegan food truck venmo flexitarian, small batch literally gastropub kale chips chicharrones. Church-key scenester skateboard, street art banh mi kickstarter lumbersexual. Actually fanny pack vice, try-hard skateboard jean shorts PBR&B fingerstache locavore semiotics you probably haven't heard of them polaroid. Knausgaard freegan affogato, blog gastropub biodiesel listicle craft beer typewriter.
 agenda: document-fake.pdf
 maps:
