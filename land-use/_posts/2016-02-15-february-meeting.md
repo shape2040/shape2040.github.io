@@ -15,6 +15,9 @@ documents:
   - title: Goals &amp; Objectives Matrix
     doc-url: goals-and-objectives-matrix-new-land-use.pdf
     doc-type: PDF
+  - title: Land Use Notes from January Kick-Off Meeting
+    doc-url: land-use-public-meeting-2016-1-26-notes.pdf
+    doc-type: PDF
   - title: Vision 2020 - Growth &amp; Land Use
     doc-url: Vision_2020_Master_(strategic)_Plan_Growth and Land Use.pdf
     doc-type: PDF
@@ -25,4 +28,5 @@ maps:
   - title: Future Land Use - Georgetown
     image-url: FutureLandUse24x36.jpg
     map-url: FutureLandUse24x36.pdf
+minutes: land-use-sub-minutes-2-15-16.pdf
 ---
