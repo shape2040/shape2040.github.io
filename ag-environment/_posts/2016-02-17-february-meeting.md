@@ -14,7 +14,11 @@ documents:
   - title: Goals &amp; Objectives Matrix
     doc-url: goals-and-objectives-matrix-new-ag-environment.pdf
     doc-type: PDF
+  - title: Agriculture &amp; Environment Notes from January Public Meeting
+    doc-url: ag-environment-public-meeting-2016-01-26-notes.pdf
+    doc-type: PDF
   - title: Vision 2020 - Agriculture
     doc-url: Vision_2020_Master_(strategic)_Plan_Agriculture.pdf
     doc-type: PDF
+minutes: ag-environment-2-17-16-minutes.pdf
 ---
