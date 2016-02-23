@@ -16,6 +16,6 @@ documents:
     doc-url: goals-and-objectives-matrix-new-heritage-and-urban-form.pdf
     doc-type: PDF
   - title: Heritage &amp; Urban Form Notes from January Kick-Off Meeting
-    doc-url: Heritage & Urban Form Notes from Public Meeting 2016-1-26.pdf
+    doc-url: heritage-and-urban-form-notes-from-public-meeting-2016-1-26.pdf
     doc-type: PDF
 ---
