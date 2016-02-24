@@ -4,6 +4,7 @@ title:  "February Meeting"
 date:   2016-02-22 12:00:00
 category: growth-economic-development
 background: During this first meeting of the Growth & Economic Development subcommittee we'll take a broad look at the subcommittee meeting schedule, review outcomes from the January public meeting, and discuss the goals of this subcommittee.
+agenda: growth-and-economic-development-agenda-2016-02-22.pdf
 documents:
   - title: Meeting Packet
     doc-url: growth-and-economic-development-packet-2016-02-22.pdf
@@ -20,4 +21,5 @@ documents:
   - title: Vision 2020 - Economic Development Vision
     doc-url: Vision_2020_Master_(strategic)_Plan_Economic Development.pdf
     doc-type: PDF
+minutes: growth-and-economic-development-minutes-2-23-16.pdf
 ---
