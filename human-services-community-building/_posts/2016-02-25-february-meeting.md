@@ -18,4 +18,5 @@ documents:
   - title: Infrastructure &amp; Facilities Notes from January Kick-Off Meeting
     doc-url: human-services-and-community-building-public-meeting-2016-01-26.pdf
     doc-type: PDF
+minutes: human-services-and-community-building-minutes-2016-02-25.pdf
 ---

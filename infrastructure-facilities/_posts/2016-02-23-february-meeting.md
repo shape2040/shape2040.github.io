@@ -16,6 +16,7 @@ documents:
     doc-url: goals-and-objectives-matrix-new-infrastructure-and-facilities.pdf
     doc-type: PDF
   - title: Infrastructure &amp; Facilities Notes from January Kick-Off Meeting
-    doc-url: infrastructure-and-comminity-facilities-public-meeting-2016-1-26.pdf
+    doc-url: infrastructure-and-community-facilities-public-meeting-2016-1-26.pdf
     doc-type: PDF
+minutes: infrastructure-and-community-facilities-minutes-2016-02-23.pdf
 ---
