@@ -13,8 +13,8 @@ description: During the 1991 comprehensive planning process, the Planning Commis
     <div class="col s12">
       <ul class="tabs">
         <li class="tab col s3"><a href="#image" class="green-text text-darken-4">Image</a></li>
-        <li class="tab col s3"><a href="#issues-priorities" class="green-text text-darken-4 active">Issues &amp; Priorities</a></li>
-        <li class="tab col s3"><a href="#attitudes-growth" class="green-text text-darken-4">Growth</a></li>
+        <li class="tab col s3"><a href="#issues-priorities" class="green-text text-darken-4">Issues &amp; Priorities</a></li>
+        <li class="tab col s3"><a href="#attitudes-growth" class="green-text text-darken-4 active">Growth</a></li>
         <li class="tab col s3"><a href="#news-comm" class="green-text text-darken-4">Communication</a></li>
         <li class="tab col s3"><a href="#demographics" class="green-text text-darken-4">Demographics</a></li>
       </ul>
@@ -30,8 +30,8 @@ description: During the 1991 comprehensive planning process, the Planning Commis
           <div class="card blue-grey lighten-5">
             <div class="card-content black-text">
               <h5>How important or unimportant are the following to you as far as what you personally value in a community?</h5>
-              <div id="value-quiet" class="col l6 m12 s12"></div>
-              <div id="value-stable" class="col l6 m12 s12"></div>
+              <div id="value-quiet" class="col l6 m12 s12 survey-viz"></div>
+              <div id="value-stable" class="col l6 m12 s12 survey-viz"></div>
               <div id="value-closeness" class="col l6 m12 s12"></div>
               <div id="value-progressive" class="col l6 m12 s12"></div>
               <div id="value-friendly" class="col l6 m12 s12"></div>
@@ -87,8 +87,8 @@ description: During the 1991 comprehensive planning process, the Planning Commis
           <div class="card blue-grey lighten-5">
             <div class="card-content black-text">
               <h5>Would you say, in terms of overall community priorities, that the following are extremely important and require immediate action, very important but not critical, or of moderate importance compared to other community issues?</h5>
-              <div id="priorities-zoning" class="col l6 m12 s12"></div>
-              <div id="priorities-housing" class="col l6 m12 s12"></div>
+              <div id="priorities-zoning" class="col l6 m12 s12 survey-viz"></div>
+              <div id="priorities-housing" class="col l6 m12 s12 survey-viz"></div>
               <div id="priorities-recycling" class="col l6 m12 s12"></div>
               <div id="priorities-water-supply" class="col l6 m12 s12"></div>
               <div id="priorities-roads" class="col l6 m12 s12"></div>
@@ -123,6 +123,146 @@ description: During the 1991 comprehensive planning process, the Planning Commis
     </div>
     <div id="attitudes-growth" class="col s12">
       <h2>Attitudes about Growth</h2>
+      <div class="row" id="aag-farmland">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>What is your opinion about how the zoning on Scott County's prime farm land should be handled in the future?</h5>
+              <div id="aag-farmland-chart" class="col l12 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-rurallot">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>At present, the minimum rural lot size is five (5) acres. In your opinion, what should the minimum lot size for rural residential lots be?</h5>
+              <div id="aag-rurallot-chart" class="col l12 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-countygrowth">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h3>Encouraging growth</h3>
+              <div id="aag-countygrowth-live" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-countygrowth-type" class="col l6 m12 s12 survey-viz"></div>
+              <h5>Thinking only about the specific part of the county in which you live, in the future should your local elected officials take action to encourage growth in your part of the country at a:</h5>
+              <div id="aag-countygrowth-change1-91" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-countygrowth-change1-15" class="col l6 m12 s12 survey-viz"></div>
+              <h5>Now thinking of the whole county, in the future should your elected officials take actions to encourage growth in the whole county at a:</h5>
+              <div id="aag-countygrowth-change2-91" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-countygrowth-change2-15" class="col l6 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-greenbelt">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>The greenbelt along the southern limits of the city of Georgetown creates a boundary between the urban area of Georgetown and the rural area of southern Scott County, preventing sprawl. Which of the following most closely matches your feelings regarding the greenbelt?</h5>
+              <div class="row">
+                <div id="aag-greenbelt-map" class="col s12 m6 l6 survey-viz">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="https://api.mapbox.com/v4/gscplanning.pboieodn/-84.565458,38.191067,13/600x300.png?access_token=pk.eyJ1IjoiZ3NjcGxhbm5pbmciLCJhIjoiRVZMNXpsQSJ9.5OxUlJTCDplPkdkKNlB91A">
+                      <span class="card-title">Greenbelt</span>
+                    </div>
+                    <div class="card-content">
+                      <p>The greenbelt provides a buffer between (sub)urban Georgetown and rural Scott County.<br> <small><b>Attribution:</b> <a href="http://www.gscplanning.com/">GSCPC</a> | © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> | © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a></small></p>
+                    </div>
+                  </div>
+                </div>
+                <div id="aag-greenbelt-chart" class="col l6 m6 s12 survey-viz"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-devincentives">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>Would you favor or oppose incentives for the following activities related to the development of Scott County?</h5>
+              <div id="aag-devincentives-green" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-devincentives-vacant" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-devincentives-power" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-devincentives-farmland" class="col l6 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-stimulate">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>Regardless of how your feel about growth in general, if your local elected officials wanted to stimulate growth and create more jobs in your county, would you personally facor or oppose each of the following actions?</h5>
+              <div id="aag-stimulate-teach" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-locate" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-schools" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-homes" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-improvements" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-expansion" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-come" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-sewer" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-motel" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-stimulate-loans" class="col l6 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-districts">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>Current state law permits local governments to establish special taxing districts where tax money is raised for a specific purpose. Here is a list of projects that are eligible for special tax district funding. Would you favor/oppose a special taxing district if new taxes were used for the following?</h5>
+              <div id="aag-districts-emergency" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-districts-parking" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-districts-roads" class="col l6 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-character">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>What are some of the places, buildings, or areas that you feel most contribute to the character of your community or that you find unique special or interesting?</h5>
+              <div id="aag-character-chart91" class="col l12 m12 s12 survey-viz"></div>
+              <div id="aag-character-chart15" class="col l12 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-historic">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>How important is it to you or for your community to preserve the following buildings or structures so they are not lost during development?</h5>
+              <div id="aag-historic-homes" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-historic-fences" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-historic-buildings" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-historic-farms" class="col l6 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="aag-downtown">
+        <div class="col s12 m12 l12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <h5>Downtown</h5>
+              <div id="aag-downtown-change" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-downtown-development" class="col l6 m12 s12 survey-viz"></div>
+              <div id="aag-downtown-improvements" class="col l6 m12 s12 survey-viz"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="news-comm" class="col s12">
       <h2>News &amp; Communication</h2>

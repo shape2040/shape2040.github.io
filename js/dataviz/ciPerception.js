@@ -1,11 +1,11 @@
-var chart = {
+var ciPerceptionBarChart = {
     type: 'bar'
 }
-var color = ['#5ea5dd','#b2d4ef','#cee4f5','#f7f7f7','#dc5d3d']
-var xAxis = {
+var ciPerceptionBarColorRWB5 = ['#5ea5dd','#b2d4ef','#cee4f5','#f7f7f7','#dc5d3d']
+var ciPerceptionXAxis = {
     categories: ['1991', '2015']
 }
-var yAxis = {
+var ciPerceptionYAxis = {
     min: 0,
     max: 100,
     tickInterval: 10,
@@ -13,7 +13,7 @@ var yAxis = {
         text: '%'
     }
 }
-var plotOptions = {
+var ciPerceptionBarPlotOptions = {
     series: {
         stacking: 'percent'
     },
@@ -23,17 +23,17 @@ var plotOptions = {
         pointPadding: -0.25
     }
 }
-var legend = {
+var ciPerceptionBarLegend = {
     reversed: true
 }
 $(function () {
     $('#perception-quiet').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A quiet and peaceful place to live'
         },
@@ -55,12 +55,12 @@ $(function () {
         }]
     });
     $('#perception-stable').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'An area that is stable'
         },
@@ -82,12 +82,12 @@ $(function () {
         }]
     });
     $('#perception-closeness').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A sense of closeness and concern for your neighbors'
         },
@@ -109,12 +109,12 @@ $(function () {
         }]
     });
     $('#perception-progressive').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A progressive place'
         },
@@ -136,12 +136,12 @@ $(function () {
         }]
     });
     $('#perception-friendly').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A place with friendly people'
         },
@@ -163,12 +163,12 @@ $(function () {
         }]
     });
     $('#perception-cost').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A lower cost of living than other places'
         },
@@ -190,12 +190,12 @@ $(function () {
         }]
     });
     $('#perception-privacy').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A respect for the privacy of others'
         },
@@ -217,12 +217,12 @@ $(function () {
         }]
     });
     $('#perception-restaurants').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'Plenty of restaurants and entertainment facilities'
         },
@@ -244,12 +244,12 @@ $(function () {
         }]
     });
     $('#perception-clean').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A clean place without junk or roadside dumps'
         },
@@ -271,12 +271,12 @@ $(function () {
         }]
     });
     $('#perception-rural').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A place that is more rural and small town than urbanized and big city in  its overall atmosphere'
         },
@@ -298,12 +298,12 @@ $(function () {
         }]
     });
     $('#perception-edu').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A high quality educational system in place'
         },
@@ -325,12 +325,12 @@ $(function () {
         }]
     });
     $('#perception-jobs').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'Lots of job opportunities for both younger and older job seekers'
         },
@@ -352,12 +352,12 @@ $(function () {
         }]
     });
     $('#perception-pride').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A strong sense of community pride among people'
         },
@@ -379,12 +379,12 @@ $(function () {
         }]
     });
     $('#perception-goals').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A general agreement among people who live there about goals and priorities for the future'
         },
@@ -406,12 +406,12 @@ $(function () {
         }]
     });
     $('#perception-environment').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A concern for protecting the environment shared by citizens, businesses and government'
         },
@@ -433,12 +433,12 @@ $(function () {
         }]
     });
     $('#perception-history').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciPerceptionBarChart,
+        colors: ciPerceptionBarColorRWB5,
+        xAxis: ciPerceptionXAxis,
+        yAxis: ciPerceptionYAxis,
+        legend: ciPerceptionBarLegend,
+        plotOptions: ciPerceptionBarPlotOptions,
         title: {
             text: 'A place with a sense of history which people value and protect'
         },

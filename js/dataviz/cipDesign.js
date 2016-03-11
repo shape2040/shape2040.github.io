@@ -1,8 +1,8 @@
-var halfPie = {
+var cipDesignHalfPie = {
   type: 'pie'
 }
-var divergeRB3 = ['#dc5d3d','#f7f7f7','#5ea5dd']
-var halfPieDataLabels = {
+var cipDesignHalfPieColorRWB3 = ['#dc5d3d','#f7f7f7','#5ea5dd']
+var cipDesignHalfPieDataLabels = {
   enabled: true,
   distance: 5,
   style: {
@@ -10,9 +10,9 @@ var halfPieDataLabels = {
     color: '#343434'
   }
 }
-var designPlotOptions = {
+var cipDesignHalfPiePlotOptions = {
   pie: {
-    dataLabels: halfPieDataLabels,
+    dataLabels: cipDesignHalfPieDataLabels,
     animation: false,
     startAngle: -90,
     endAngle: 90,
@@ -21,15 +21,15 @@ var designPlotOptions = {
 }
 $(function () {
     $('#design-county').highcharts({
-        chart: halfPie,
-        colors: divergeRB3,
+        chart: cipDesignHalfPie,
+        colors: cipDesignHalfPieColorRWB3,
         title: {
             text: 'The entire county'
         },
         tooltip: {
             pointFormat: '{point.percentage:.1f}%</b>'
         },
-        plotOptions: designPlotOptions,
+        plotOptions: cipDesignHalfPiePlotOptions,
         series: [{
             innerSize: '50%',
             data: [
@@ -40,15 +40,15 @@ $(function () {
         }]
     });
     $('#design-corridors').highcharts({
-        chart: halfPie,
-        colors: divergeRB3,
+        chart: cipDesignHalfPie,
+        colors: cipDesignHalfPieColorRWB3,
         title: {
             text: "Specific 'gateway corridors'"
         },
         tooltip: {
             pointFormat: '{point.percentage:.1f}%</b>'
         },
-        plotOptions: designPlotOptions,
+        plotOptions: cipDesignHalfPiePlotOptions,
         series: [{
             innerSize: '50%',
             data: [
@@ -59,15 +59,15 @@ $(function () {
         }]
     });
     $('#design-downtown').highcharts({
-        chart: halfPie,
-        colors: divergeRB3,
+        chart: cipDesignHalfPie,
+        colors: cipDesignHalfPieColorRWB3,
         title: {
             text: "Downtown"
         },
         tooltip: {
             pointFormat: '{point.percentage:.1f}%</b>'
         },
-        plotOptions: designPlotOptions,
+        plotOptions: cipDesignHalfPiePlotOptions,
         series: [{
             innerSize: '50%',
             data: [
@@ -78,15 +78,15 @@ $(function () {
         }]
     });
     $('#design-none').highcharts({
-        chart: halfPie,
-        colors: divergeRB3,
+        chart: cipDesignHalfPie,
+        colors: cipDesignHalfPieColorRWB3,
         title: {
             text: "None"
         },
         tooltip: {
             pointFormat: '{point.percentage:.1f}%</b>'
         },
-        plotOptions: designPlotOptions,
+        plotOptions: cipDesignHalfPiePlotOptions,
         series: [{
             innerSize: '50%',
             data: [

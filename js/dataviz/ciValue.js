@@ -1,11 +1,11 @@
-var chart = {
-    type: 'bar'
+var ciValueBarChart = {
+    type: 'bar' 
 }
-var color = ['#5ea5dd','#b2d4ef','#cee4f5','#f7f7f7','#dc5d3d']
-var xAxis = {
+var ciValueBarColorRWB5 = ['#5ea5dd','#b2d4ef','#cee4f5','#f7f7f7','#dc5d3d']
+var ciValueXAxis2Year = {
     categories: ['1991', '2015']
 }
-var yAxis = {
+var ciValueYAxis = {
     min: 0,
     max: 100,
     tickInterval: 10,
@@ -13,7 +13,7 @@ var yAxis = {
         text: '%'
     }
 }
-var plotOptions = {
+var ciValueBarPlotOptions = {
     series: {
         stacking: 'percent'
     },
@@ -23,17 +23,17 @@ var plotOptions = {
         pointPadding: -0.25
     }
 }
-var legend = {
+var ciValueBarLegend = {
     reversed: true
 }
 $(function () {
     $('#value-quiet').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A quiet and peaceful place to live'
         },
@@ -55,12 +55,12 @@ $(function () {
         }]
     });
     $('#value-stable').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'An area that is stable'
         },
@@ -82,12 +82,12 @@ $(function () {
         }]
     });
     $('#value-closeness').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A sense of closeness and concern for your neighbors'
         },
@@ -109,12 +109,12 @@ $(function () {
         }]
     });
     $('#value-progressive').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A progressive place'
         },
@@ -136,12 +136,12 @@ $(function () {
         }]
     });
     $('#value-friendly').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A place with friendly people'
         },
@@ -163,12 +163,12 @@ $(function () {
         }]
     });
     $('#value-cost').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A lower cost of living than other places'
         },
@@ -190,12 +190,12 @@ $(function () {
         }]
     });
     $('#value-privacy').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A respect for the privacy of others'
         },
@@ -217,12 +217,12 @@ $(function () {
         }]
     });
     $('#value-restaurants').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'Plenty of restaurants and entertainment facilities'
         },
@@ -244,12 +244,12 @@ $(function () {
         }]
     });
     $('#value-clean').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A clean place without junk or roadside dumps'
         },
@@ -271,12 +271,12 @@ $(function () {
         }]
     });
     $('#value-rural').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A place that is more rural and small town than urbanized and big city in  its overall atmosphere'
         },
@@ -298,12 +298,12 @@ $(function () {
         }]
     });
     $('#value-edu').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A high quality educational system in place'
         },
@@ -325,12 +325,12 @@ $(function () {
         }]
     });
     $('#value-jobs').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'Lots of job opportunities for both younger and older job seekers'
         },
@@ -352,12 +352,12 @@ $(function () {
         }]
     });
     $('#value-pride').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A strong sense of community pride among people'
         },
@@ -379,12 +379,12 @@ $(function () {
         }]
     });
     $('#value-goals').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A general agreement among people who live there about goals and priorities for the future'
         },
@@ -406,12 +406,12 @@ $(function () {
         }]
     });
     $('#value-environment').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A concern for protecting the environment shared by citizens, businesses and government'
         },
@@ -433,12 +433,12 @@ $(function () {
         }]
     });
     $('#value-history').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: ciValueBarChart,
+        colors: ciValueBarColorRWB5,
+        xAxis: ciValueXAxis2Year,
+        yAxis: ciValueYAxis,
+        legend: ciValueBarLegend,
+        plotOptions: ciValueBarPlotOptions,
         title: {
             text: 'A place with a sense of history which people value and protect'
         },

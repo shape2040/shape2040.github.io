@@ -1,11 +1,11 @@
-var chart = {
+var cipPrioritiesBarChart = {
     type: 'bar'
 }
-var color = ['#5ea5dd','#b2d4ef','#cee4f5','#f7f7f7','#dc5d3d']
-var xAxis = {
+var cipPrioritiesBarColorRWB5 = ['#5ea5dd','#b2d4ef','#cee4f5','#f7f7f7','#dc5d3d']
+var cipPrioritiesXAxis2Year = {
     categories: ['1991', '2015']
 }
-var yAxis = {
+var cipPrioritiesYAxis = {
     min: 0,
     max: 100,
     tickInterval: 10,
@@ -13,7 +13,7 @@ var yAxis = {
         text: '%'
     }
 }
-var plotOptions = {
+var cipPrioritiesBarPlotOptions = {
     series: {
         stacking: 'percent'
     },
@@ -23,17 +23,17 @@ var plotOptions = {
         pointPadding: -0.25
     }
 }
-var legend = {
+var cipPrioritiesBarLegend = {
     reversed: true
 }
 $(function () {
     $('#priorities-zoning').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Stricter enforcement of existing zoning regulations'
         },
@@ -55,12 +55,12 @@ $(function () {
         }]
     });
     $('#priorities-housing').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'More housing in the $40,000 to $70,000 (1991)| $90,000 to $120,000 (2015) range'
         },
@@ -82,12 +82,12 @@ $(function () {
         }]
     });
     $('#priorities-recycling').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'More publicly funded programs to encourage recycling of items that are potentially damaging to the environment'
         },
@@ -109,12 +109,12 @@ $(function () {
         }]
     });
     $('#priorities-water-supply').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Increasing the local water supply'
         },
@@ -136,12 +136,12 @@ $(function () {
         }]
     });
     $('#priorities-roads').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'More repairs and better maintenance of local streets and roads'
         },
@@ -163,12 +163,12 @@ $(function () {
         }]
     });
     $('#priorities-seniors').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Establish adult day care programs for senior citizens'
         },
@@ -190,12 +190,12 @@ $(function () {
         }]
     });
     $('#priorities-water-quality').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Improve the quality of local drinking water'
         },
@@ -217,12 +217,12 @@ $(function () {
         }]
     });
     $('#priorities-sewer').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Wider availability of municipal sewer service'
         },
@@ -244,12 +244,12 @@ $(function () {
         }]
     });
     $('#priorities-training').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'More vocational training'
         },
@@ -271,12 +271,12 @@ $(function () {
         }]
     });
     $('#priorities-cooperation').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'More cooperation in all areas of government between the various city and county governments in Scott Co.'
         },
@@ -298,14 +298,14 @@ $(function () {
         }]
     });
     $('#priorities-consolidation').highcharts({
-        chart: chart,
-        colors: color,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
         xAxis: {
             categories: ['2015']
         },
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Consolidation of the local city and county governments'
         },
@@ -327,14 +327,14 @@ $(function () {
         }]
     });
     $('#priorities-legacy').highcharts({
-        chart: chart,
-        colors: color,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
         xAxis: {
             categories: ['2015']
         },
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Construction of the Legacy Trail Extension'
         },
@@ -356,12 +356,12 @@ $(function () {
         }]
     });
     $('#priorities-edu').highcharts({
-        chart: chart,
-        colors: color,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
+        xAxis: cipPrioritiesXAxis2Year,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'More early childhood education programs for pre-kindergarten children'
         },
@@ -383,14 +383,14 @@ $(function () {
         }]
     });
     $('#priorities-design').highcharts({
-        chart: chart,
-        colors: color,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
         xAxis: {
             categories: ['2015']
         },
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Design standards for new community development'
         },
@@ -412,14 +412,14 @@ $(function () {
         }]
     });
     $('#priorities-incentives').highcharts({
-        chart: chart,
-        colors: color,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
         xAxis: {
             categories: ['2015']
         },
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Incentives'
         },
@@ -441,14 +441,14 @@ $(function () {
         }]
     });
     $('#priorities-impact').highcharts({
-        chart: chart,
-        colors: color,
+        chart: cipPrioritiesBarChart,
+        colors: cipPrioritiesBarColorRWB5,
         xAxis: {
             categories: ['2015']
         },
-        yAxis: yAxis,
-        legend: legend,
-        plotOptions: plotOptions,
+        yAxis: cipPrioritiesYAxis,
+        legend: cipPrioritiesBarLegend,
+        plotOptions: cipPrioritiesBarPlotOptions,
         title: {
             text: 'Impact fees'
         },
