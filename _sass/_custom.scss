@@ -144,3 +144,13 @@ footer.page-footer {
   /* shadow */
   text-shadow: 0 0 5px #444;
 }
+
+.tab-pane {
+  display: block !important; 
+  height: 0 !important;
+  overflow-y: hidden !important;
+} 
+
+.tab-content > .active {
+  height: auto !important;
+}
