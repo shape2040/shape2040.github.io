@@ -1,16 +1,21 @@
+
 <script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="/js/dataviz/compplanThemeHC.js"></script>
-<!-- Encouraging growth in SC generally -->
-<script src="/js/dataviz/growth1991.js"></script>
-<script src="/js/dataviz/growth2015.js"></script>
-<!-- Encouraging growth in respondant's part of SC -->
-<script src="/js/dataviz/growthpart1991.js"></script>
-<script src="/js/dataviz/growthpart2015.js"></script>
-<!-- County of employment of respondant -->
-<script src="/js/dataviz/employcounty1991.js"></script>
-<script src="/js/dataviz/employcounty2015.js"></script>
-<!-- Design standards -->
-<script src="/js/dataviz/dsCounty.js"></script>
-<script src="/js/dataviz/dsCorridor.js"></script>
-<script src="/js/dataviz/dsDowntown.js"></script>
+<!-- <script src="https://code.highcharts.com/modules/exporting.js"></script> -->
+<script src="/js/dataviz/baseChartTheme.js"></script>
+<!-- <script src="/js/dataviz/resizeTab.js"></script> -->
+<!-- <script src="/js/dataviz/compplanThemeHC.js"></script> -->
+<!-- Community Image -->
+<!-- How important or unimportant are the following to as far as what you personally value in a community? -->
+<script src="/js/dataviz/ciValue.js"></script>
+<script src="/js/dataviz/ciPerception.js"></script>
+<script src="/js/dataviz/cipPriorities.js"></script>
+<script src="/js/dataviz/cipDesign.js"></script>
+<script src="/js/dataviz/aag.js"></script>
+<script>
+// TODO Fix scrollspy on refresh
+$(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+    $('.toc-wrapper').pushpin({ top: $('.toc-wrapper').offset().top });
+
+  });
+</script>

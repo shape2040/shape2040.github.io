@@ -145,6 +145,10 @@ footer.page-footer {
   text-shadow: 0 0 5px #444;
 }
 
+.table-of-contents a:hover, .table-of-contents a.active {
+  border-left-color: #4caf50;
+}
+
 // .tab-pane {
 //   display: block !important; 
 //   height: 0 !important;
