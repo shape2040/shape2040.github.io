@@ -12,7 +12,7 @@ documents:
   - title: Meeting Slides
     doc-url: heritage-and-urban-form-slides-2016-03-17.pdf
     doc-type: PDF
-  - title: Proposed Goals by Category
-    doc-url: heritage-and-urban-form-proposed-goals-2016-03-17.pdf
+  - title: Proposed Goals by Category&#58; The Public Realm - <i>First Draft</i>
+    doc-url: heritage-and-urban-form-proposed-goals-pt1-2016-03-17.pdf
     doc-type: PDF
 ---
