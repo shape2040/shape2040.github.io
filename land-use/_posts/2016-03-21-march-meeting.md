@@ -12,7 +12,7 @@ documents:
   - title: Meeting Slides
     doc-url: land-use-slides-2016-03-21.pdf
     doc-type: PDF
-  - title: Draft Goals by Category&#58; Growth Management - <i>First Draft</i>
+  - title: Draft Goals by Category&#58; Growth Management, Part 1 - <i>First Draft</i>
     doc-url: land-use-proposed-goals-pt1-2016-03-21.pdf
     doc-type: PDF
 ---
