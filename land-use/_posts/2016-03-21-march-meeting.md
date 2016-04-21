@@ -15,4 +15,5 @@ documents:
   - title: Draft Goals by Category&#58; Growth Management, Part 1 - <i>First Draft</i>
     doc-url: land-use-proposed-goals-pt1-2016-03-21.pdf
     doc-type: PDF
+minutes: land-use-sub-minutes-03-21-16.pdf
 ---
