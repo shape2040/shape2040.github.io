@@ -15,4 +15,11 @@ documents:
   - title: Proposed Goals by Category&#58; Locations of Primary Concern - <i>First Draft</i>
     doc-url: heritage-and-urban-form-proposed-goals-pt1-2016-04-21.pdf
     doc-type: PDF
+maps:
+  - title: Downtown Historic &amp; Cultural Districts
+    image-url: H1_Expansion_LETTER.jpg
+    map-url: H1_Expansion_LETTER.pdf
+  - title: Walmart-Downtown Georgetown Comparison
+    image-url: walmart_1_notax_lowres.png
+    map-url: walmart_1_notax.png
 ---

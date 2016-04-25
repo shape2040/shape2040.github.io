@@ -15,4 +15,8 @@ documents:
   - title: Draft Goals by Category&#58; Future Land Use Map Guidance, Part 2 - <i>First Draft</i>
     doc-url: land-use-proposed-goals-pt2-2016-04-18.pdf
     doc-type: PDF
+maps:
+  - title: Georgetown Downtown Zone (B-3)
+    image-url: zone_b3.png
+    map-url: zone_b3-title.jpg
 ---
