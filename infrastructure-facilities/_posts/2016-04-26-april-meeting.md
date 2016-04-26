@@ -15,4 +15,12 @@ documents:
   - title: Draft Goals by Category Part 2 - <i>First Draft</i>
     doc-url: infrastructure-facilities-proposed-goals-pt2-2016-04-26.pdf
     doc-type: PDF
+maps:
+  - title: Future Land Use (2006)
+    image-url: FutureLandUse24x36.jpg
+    map-url: FutureLandUse24x36.pdf
+  - title: Greenbelt
+    image-url: greenbelt.png
+    map-url: greenbelt.png
+
 ---
