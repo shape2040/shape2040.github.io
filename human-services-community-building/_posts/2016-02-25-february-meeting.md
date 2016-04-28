@@ -3,7 +3,7 @@ layout: post
 title:  "February Meeting"
 date:   2016-02-25 12:00:00
 category: human-services-community-building
-background: During this first meeting of the Human Services &amp; Community Building subcommittee we'll take a broad look at the subcommittee meeting schedule, review outcomes from the January public meeting, and discuss the goals of this subcommittee.
+background: During this first meeting of the Human Services &amp; Community Building subcommittee we took a broad look at the subcommittee meeting schedule, reviewed outcomes from the January public meeting, and discussed the goals of this subcommittee.
 agenda: human-services-and-community-building-agenda-2016-02-25.pdf
 documents:
   - title: Meeting Packet

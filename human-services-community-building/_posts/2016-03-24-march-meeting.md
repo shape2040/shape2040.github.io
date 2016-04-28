@@ -3,7 +3,7 @@ layout: post
 title:  "March Meeting"
 date:   2016-03-24 12:00:00
 category: human-services-community-building
-background: During this meeting of the Human Services &amp; Community Building subcommittee we will discuss the group's goals and objectives
+background: During this meeting of the Human Services &amp; Community Building subcommittee we discussed the group's goals and objectives
 agenda: human-services-and-community-building-agenda-2016-03-24.pdf
 documents:
   - title: Meeting Packet
