@@ -6,6 +6,7 @@ description: Throughout the comprehensive planning process there will be public 
 <div class="home">
   <h1 class="sub-page-title">{{ page.title }}</h1>
   <p>{{ page.description }}</p>
+  <h2 class="resource-section-header">Meeting Resources</h2>
   {% for post in site.posts %}
   {% if post.categories contains 'public-meetings' %}
   {% include public-meeting.html %}
