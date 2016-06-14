@@ -8,6 +8,9 @@ background: This is the second of a series of large-scale public meetings to upd
 building: Scott County Extension Office
 address: 1130 Cincinnati Rd
 documents:
+  - title: Presentation Slides
+    doc-url: comp-plan-public-meeting-presentation_20160614.pdf
+    doc-type: PDF
   - title: Draft Goals &amp; Objectives
     doc-url: draft-goals-and-objectives.pdf
     doc-type: PDF
