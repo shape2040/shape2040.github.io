@@ -4,7 +4,7 @@ title: "June Public Meeting"
 date: 2016-06-14 12:00:00
 time: 6:00 - 8:00 PM
 category: public-meetings
-background: This is the second of a series of large-scale public meetings to update the Georgetown-Scott County Comprehensive Plan. At this meeting, the public will be able to review draft goals and objectives and provide feedback for the future of our community. They'll also be able to sign up to join a sub-committee.
+background: This was the second of a series of large-scale public meetings to update the Georgetown-Scott County Comprehensive Plan. At this meeting, the public was able to review draft goals and objectives and provide feedback for the future of our community. They were also able to sign up to join a sub-committee.
 building: Scott County Extension Office
 address: 1130 Cincinnati Rd
 documents:
