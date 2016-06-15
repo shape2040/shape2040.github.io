@@ -15,4 +15,5 @@ documents:
   - title: Draft Goals by Cluster
     doc-url: ag-env-draft-goals-2016-04-20.pdf
     doc-type: PDF
+minutes: ag-environment-4-20-16-minutes.pdf
 ---
