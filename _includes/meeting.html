@@ -32,7 +32,15 @@
                     {% for map in post.maps %}
                     <div class="card small">
                       <div class="card-image">
+                        {% assign str = {{map.image-url}} %}
+                        {% assign a = str | split: ':' %}
+                        {% assign b = a[0] %}
+
+                        {% if b == "http" or b == "https" %}
+                        <img src="{{map.image-url}}">
+                        {% else %}
                         <img src="images/{{map.image-url}}">
+                        {% endif %}
                         <span class="card-title">{{map.title}}</span>
                       </div>
                       <div class="card-action">
