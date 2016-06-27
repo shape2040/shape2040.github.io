@@ -16,4 +16,5 @@ maps:
   - title: Georgetown Greenbelt
     image-url: https://api.mapbox.com/v4/gscplanning.pboieodn/-84.565458,38.191067,13/600x300.png?access_token=pk.eyJ1IjoiZ3NjcGxhbm5pbmciLCJhIjoiRVZMNXpsQSJ9.5OxUlJTCDplPkdkKNlB91A
     map-url: https://api.mapbox.com/v4/gscplanning.pboieodn/-84.565458,38.191067,13/600x300.png?access_token=pk.eyJ1IjoiZ3NjcGxhbm5pbmciLCJhIjoiRVZMNXpsQSJ9.5OxUlJTCDplPkdkKNlB91A
+minutes: land-use-sub-minutes-06-20-16.pdf
 ---

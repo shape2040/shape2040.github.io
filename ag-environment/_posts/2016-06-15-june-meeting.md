@@ -12,4 +12,5 @@ documents:
   - title: Meeting Slides
     doc-url: ag-env-slides-2016-06-15.pdf
     doc-type: PDF
+minutes: ag-environment-6-15-16-minutes.pdf
 ---

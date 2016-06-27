@@ -9,5 +9,5 @@ documents:
   - title: Meeting Packet
     doc-url: steering-committee-meeting-agenda-2016-03-15-PACKET.pdf
     doc-type: PDF
-<!-- minutes: minutes-from-3-15-16-meeting.pdf -->
+minutes: steering-committee-meeting-minutes-2016-03-15.pdf
 ---

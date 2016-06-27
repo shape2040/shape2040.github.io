@@ -22,4 +22,5 @@ maps:
   - title: Walmart-Downtown Georgetown Comparison
     image-url: walmart_1_notax_lowres.png
     map-url: walmart_1_notax.png
+minutes: heritage-and-urban-form-minutes-2016-04-21.pdf
 ---

@@ -19,4 +19,5 @@ maps:
   - title: Georgetown Downtown Zone (B-3)
     image-url: zone_b3.png
     map-url: zone_b3-title.jpg
+minutes: land-use-sub-minutes-04-18-16.pdf
 ---

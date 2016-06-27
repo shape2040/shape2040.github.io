@@ -15,4 +15,5 @@ documents:
   - title: Proposed Goals by Category&#58; Housing Issues &amp; Education - <i>First Draft</i>
     doc-url: human-services-and-community-building-proposed-goals-pt2-2016-04-28.pdf
     doc-type: PDF
+minutes: human-services-and-community-building-minutes-2016-04-28.pdf
 ---
