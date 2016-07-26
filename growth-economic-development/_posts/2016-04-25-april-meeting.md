@@ -2,7 +2,8 @@
 layout: post
 title:  "April Meeting"
 date:   2016-04-25 12:00:00
-category: During this meeting of the Growth and Economic Development subcommittee we discussed the group's goals and objectives
+category: growth-economic-development
+background: During this meeting of the Growth and Economic Development subcommittee we discussed the group's goals and objectives
 agenda: growth-and-economic-development-agenda-2016-04-25.pdf
 documents:
   - title: Meeting Packet
