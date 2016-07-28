@@ -12,7 +12,7 @@ var columns = [
   "data": "title",
   "title": "Title",
   "fnCreatedCell": function (nTd, sData, oData, iRow, iCol) {
-    $(nTd).html("<a href='"+oData.filename+"'>"+oData.title+"</a>")
+    $(nTd).html("<a href='"+oData.filename+"' target='_blank'>"+oData.title+"</a>");
   }
 }, {
   "data": "group",
@@ -56,8 +56,9 @@ $(document).ready(function() {
       "data": data,
       "columns": columns,
       "order": [
-        [1, "desc"]
+        [1, "asc"],[2,"asc"],[0,"asc"]
       ], //order on second column
+      "stateSave": true,
       "pagingType": "simple" //no page numbers
         //uncomment these options to simplify your table
         //"paging": false,
