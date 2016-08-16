@@ -38,7 +38,7 @@
             {% endif %}
 
             {% if post.agenda %}
-            <h3><a href="documents/{{post.agenda}}">Agenda</a></h3>
+            <h3><a href="../documents/{{post.agenda}}">Agenda</a></h3>
             {% endif %}
 
             {% if post.maps %}
@@ -48,7 +48,7 @@
                     {% for map in post.maps %}
                     <div class="card small">
                       <div class="card-image">
-                        <img src="images/{{map.image-url}}">
+                        <img src="../documents/{{map.image-url}}">
                         <span class="card-title">{{map.title}}</span>
                       </div>
                       <div class="card-action">
@@ -60,7 +60,7 @@
                         {% if b == "http" or b == "https" %}
                         <a href="{{map.map-url}}">View</a>
                         {% else %}
-                        <a href="images/{{map.map-url}}">Download</a>
+                        <a href="../documents/{{map.map-url}}">Download</a>
                         {% endif %}
                       </div>
                     </div>
@@ -75,7 +75,7 @@
               <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1 sub-document-list">
                 <ul>
                   {% for doc in post.documents %}
-                  <li><a href="documents/{{doc.doc-url}}">{{doc.title}} ({{ doc.doc-type }})</a></li>
+                  <li><a href="../documents/{{doc.doc-url}}">{{doc.title}} ({{ doc.doc-type }})</a></li>
                   {% endfor %}
                 </ul>
               </div>
@@ -83,7 +83,7 @@
             {% endif %}
 
             {% if post.minutes %}
-            <h3><a href="documents/{{post.minutes}}">Minutes</a></h3>
+            <h3><a href="../documents/{{post.minutes}}">Minutes</a></h3>
             {% endif %}
           </article>
       </div>

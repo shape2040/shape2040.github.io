@@ -3,7 +3,7 @@ layout: post
 title:  "July Meeting"
 date:   2016-07-18 12:00:00
 category: land-use
-background: In this meeting of the Land Use subcommittee we looked at the USB boundary policy, the greenbelt policy, andoptions and procedures for USB expansion.
+background: In this meeting of the Land Use subcommittee we looked at the USB boundary policy, the greenbelt policy, and options and procedures for USB expansion.
 agenda: land-use-agenda-2016-07-18.pdf
 documents:
   - title: Meeting Packet
