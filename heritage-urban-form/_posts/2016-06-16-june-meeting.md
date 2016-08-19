@@ -12,5 +12,8 @@ documents:
   - title: Meeting Slides
     doc-url: heritage-and-urban-form-slides-2016-06-16.pdf
     doc-type: PDF
+  - title: Cultural Resources Homework
+    doc-url: homework-cultural-resources-list.pdf
+    doc-type: PDF
 minutes: heritage-and-urban-form-minutes-2016-06-16.pdf
 ---

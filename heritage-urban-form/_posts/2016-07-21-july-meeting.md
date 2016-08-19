@@ -12,4 +12,8 @@ documents:
   - title: Meeting Slides
     doc-url: heritage-and-urban-form-slides-2016-07-21.pdf
     doc-type: PDF
+  - title: B-3 Zone District Review
+    doc-url: b-3-zone-district-review.pdf
+    doc-type: PDF
+minutes: heritage-and-urban-form-minutes-2016-07-21.pdf
 ---

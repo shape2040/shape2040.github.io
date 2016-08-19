@@ -12,4 +12,5 @@ documents:
   - title: Meeting Slides
     doc-url: land-use-slides-2016-07-18.pdf
     doc-type: PDF
+minutes: land-use-sub-minutes-07-18-16.pdf
 ---

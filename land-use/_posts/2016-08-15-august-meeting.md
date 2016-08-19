@@ -15,4 +15,5 @@ documents:
   - title: Urban Land Use Draft Policies
     doc-url: land-use-policies-draft-2016-08-15.pdf
     doc-type: PDF
+minutes: land-use-sub-minutes-08-15-16.pdf
 ---
