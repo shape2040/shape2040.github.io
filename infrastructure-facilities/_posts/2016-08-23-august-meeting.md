@@ -3,7 +3,7 @@ layout: post
 title:  "August Meeting"
 date:   2016-08-23 12:00:00
 category: infrastructure-facilities
-background: In this meeting of the Infrastructure &amp; Public Facilities sub-committee we reviewed local transportation needs, discussed the bike/pedestrian plan, and reviewed transportation maps.
+background: In this meeting of the Infrastructure &amp; Public Facilities sub-committee we reviewed local transportation needs, discussed cell tower regulations
 agenda: infrastructure-and-community-facilities-agenda-2016-08-23.pdf
 documents:
   - title: Meeting Packet
