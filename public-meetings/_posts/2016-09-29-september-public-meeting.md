@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "September Public Meeting"
+title: "September Special Planning Commission Meeting"
 date: 2016-09-29 12:00:00
 time: 6:00 PM
 category: public-meetings
