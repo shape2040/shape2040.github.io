@@ -8,6 +8,9 @@ background: This is the third of a series of large-scale public meetings to upda
 building: Scott County Courthouse
 address: 101 E Main St
 documents:
+  - title: Draft Goals &amp; Objectives
+    doc-url: draft-goals-and-objectives-by-chapter_v5.pdf
+    doc-type: PDF
   - title: Meeting Flyer
     doc-url: september-29th-PC-Meeting-Flyer.pdf
     doc-type: PDF
