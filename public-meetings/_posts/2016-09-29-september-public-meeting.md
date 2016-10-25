@@ -12,7 +12,7 @@ documents:
     doc-url: planning-commission-agenda-2016-09-29.pdf
     doc-type: PDF
   - title: Draft Goals &amp; Objectives
-    doc-url: draft-goals-and-objectives-by-chapter_v5.pdf
+    doc-url: draft-goals-and-objectives-by-chapter_v6.pdf
     doc-type: PDF
   - title: Meeting Flyer
     doc-url: september-29th-PC-Meeting-Flyer.pdf
